@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, ChevronUp, ChevronDown, User as UserIcon } from 'lucide-react';
 import { mockUsers } from '../data/mockUsers';
-import type { User } from '../types/user';
+// import type { User } from '../types/user';
 
 type SortField = 'name' | 'company';
 type SortOrder = 'asc' | 'desc';
